@@ -115,6 +115,7 @@ Tras la fase de limpieza e integración de columnas calculadas en Google Sheets,
 
 ## 🔗 Enlaces del Proyecto
 * 📊 [Ver Dashboard Interactivo en Looker Studio](https://datastudio.google.com/reporting/758406a6-5c76-4b2f-a101-275fde7a8310)
-* <img width="1016" height="890" alt="image" src="https://github.com/user-attachments/assets/126cc48e-b396-49e6-97bc-e1063a121c31" />
+* <img width="1037" height="852" alt="image" src="https://github.com/user-attachments/assets/ec043471-8021-49fb-859b-2aa6c1739c9d" />
+
 
 * 🗃️ [Ver Script de Consultas SQL en BigQuery](./sql/01_analysis_queries.sql)
