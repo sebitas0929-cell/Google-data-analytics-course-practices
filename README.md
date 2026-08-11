@@ -14,6 +14,7 @@ Este repositorio consolida todos los proyectos prácticos, bitácoras de limpiez
 
 ## 📂 Índice de Proyectos y Prácticas
 
-| Proyecto / Práctica | Descripción | Herramientas | Enlace directo |
-| :--- | :--- | :--- | :--- |
-| **`Analisis-ventas-ecommerce-`** | Limpieza de datos de e-commerce (+105k registros), consultas SQL en BigQuery y Dashboard interactivo en Looker Studio. | Sheets, BigQuery, Looker Studio | [Ver Carpeta](./Analisis-ventas-ecommerce-) |
+| Proyecto / Práctica | Descripción | Herramientas | Estado |
+| :--- | :--- | :--- | :---: |
+| **`Analisis-ventas-ecommerce-`** | Limpieza de datos (+105k filas), consultas SQL y Dashboard en Looker. | Sheets, BigQuery, Looker Studio | [Ver Carpeta](./Analisis-ventas-ecommerce-) |
+| **`ds-salaries-analysis`** | Estandarización de roles, tablas dinámicas y evaluación del margen de error (95% confianza). | Google Sheets | [Ver Carpeta](./ds-salaries-analysis) |
