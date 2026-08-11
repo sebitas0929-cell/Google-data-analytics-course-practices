@@ -66,7 +66,7 @@ ORDER BY
   type,
   total_titulos DESC;
   ```
- # 📊 Hallazgos Principales
+ ### 📊 Hallazgos Principales
  
    Predominio de Películas Estándar: El 78.6% de las películas catalogadas duran entre 40 y 120 minutos, con un promedio general de 92.6 minutos.
 
