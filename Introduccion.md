@@ -1,6 +1,13 @@
-# 📊 Google Data Analytics — Prácticas y Proyectos de Laboratorio
+# 📌 Introducción al Repositorio
 
-Este repositorio consolida todos los proyectos prácticos, bitácoras de limpieza de datos, consultas en SQL y modelos analíticos desarrollados a lo largo del **Certificado Profesional de Análisis de Datos de Google**.
+¡Bienvenido a mi portafolio de prácticas y proyectos de análisis de datos!
+
+Este espacio está destinado a documentar mi aprendizaje continuo, ejercicios prácticos y proyectos de análisis de datos desarrollados de forma paralela al **Certificado Profesional de Análisis de Datos de Google**.
+
+---
+
+## 🎯 Objetivo del Portafolio
+Aplicar técnicas de análisis exploratorio, saneamiento de datos, modelado relacional y visualización ejecutiva sobre casos de negocio reales, asegurando que cada proyecto cuente con una documentación clara, reproducible y enfocada en la toma de decisiones basada en datos.
 
 ---
 
@@ -12,6 +19,18 @@ Este repositorio consolida todos los proyectos prácticos, bitácoras de limpiez
 
 ---
 
+## 📐 Metodología de Trabajo
+Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vida del análisis de datos de Google:
+
+1. **Preguntar (Ask):** Definición del problema de negocio y objetivos analíticos.
+2. **Preparar (Prepare):** Identificación de fuentes, estructura y evaluación de integridad de los datos.
+3. **Procesar (Process):** Saneamiento de datos, tratamiento de nulos y estandarización mediante Sheets/SQL.
+4. **Analizar (Analyze):** Modelado, consultas exploratorias y cálculos estadísticos en BigQuery.
+5. **Compartir (Share):** Creación de tableros interactivos y reportes de hallazgos.
+6. **Actuar (Act):** Formulación de conclusiones y recomendaciones estratégicas.
+
+---
+
 ## 📂 Índice de Proyectos y Prácticas
 
 | Proyecto / Práctica | Descripción | Herramientas | Estado |
@@ -19,3 +38,9 @@ Este repositorio consolida todos los proyectos prácticos, bitácoras de limpiez
 | **`Analisis-ventas-ecommerce-`** | Limpieza de datos (+105k filas), consultas SQL y Dashboard en Looker. | Sheets, BigQuery, Looker Studio | [Ver Carpeta](./Analisis-ventas-ecommerce-) |
 | **`ds-salaries-analysis`** | Estandarización de roles, cálculo de margen de error (95% confianza) y consulta SQL de incertidumbre. | Google Sheets, BigQuery | [Ver Carpeta](./ds-salaries-analysis) |
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
+
+---
+
+## 👤 Autor
+**Sebastián Corrales Blanco**  
+*San José, Costa Rica*
