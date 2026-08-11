@@ -42,12 +42,12 @@ $$\text{Margen de Error} = 1.96 \times \left( \frac{\text{STDEV}}{\sqrt{N}} \rig
 
 ### Resumen de Métricas Agregadas:
 
-| Nivel de Experiencia | Muestra ($N$) | Promedio Salarial | Desviación Estándar | Margen de Error ($\pm$) | % Incertidumbre |
+| Nivel de Experiencia | Muestra (N) | Promedio Salarial | Desviación Estándar | Margen de Error (±) | % Incertidumbre |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **`EN` (Junior / Entry)** | 88 | $\$61,643.32$ | $\$44,395.54$ | $\pm \$9,275.86$ | **15.05%** |
-| **`MI` (Mid-level)** | 213 | $\$87,996.06$ | $\$63,901.06$ | $\pm \$8,581.72$ | **9.75%** |
-| **`SE` (Senior)** | 280 | $\$138,617.29$ | $\$57,691.98$ | $\pm \$6,757.60$ | **4.88%** |
-| **`EX` (Executive)** | 26 | $\$199,392.04$ | $\$117,071.26$ | $\pm \$45,000.74$ | **22.57%** |
+| **`EN` (Junior / Entry)** | 88 | $61,643.32 | $44,395.54 | ± $9,275.86 | **15.05%** |
+| **`MI` (Mid-level)** | 213 | $87,996.06 | $63,901.06 | ± $8,581.72 | **9.75%** |
+| **`SE` (Senior)** | 280 | $138,617.29 | $57,691.98 | ± $6,757.60 | **4.88%** |
+| **`EX` (Executive)** | 26 | $199,392.04 | $117,071.26 | ± $45,000.74 | **22.57%** |
 
 ### 💡 Hallazgos Clave de Negocio:
 * **Estandarización en Senior Level:** Puestos `SE` presentan la menor incertidumbre (**4.88%**), indicando bandas salariales muy consistentes y predecibles en la industria.
