@@ -28,7 +28,17 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 4. **Analizar (Analyze):** Modelado, consultas exploratorias y cálculos estadísticos en BigQuery.
 5. **Compartir (Share):** Creación de tableros interactivos y reportes de hallazgos.
 6. **Actuar (Act):** Formulación de conclusiones y recomendaciones estratégicas.
+   
+### 🔍 Respaldo de la Metodología en los Entregables
 
+Cada fase de la metodología de Google está documentada y respaldada en los archivos de este repositorio:
+
+* **Ask & Prepare:** Sección *Contexto y Diagnóstico* en las bitácoras `log_de_limpieza.md`.
+* **Process:** Scripts de fórmulas en Google Sheets y preparación de archivos `.csv`.
+* **Analyze:** Consultas SQL avanzadas guardadas en la carpeta `sql/` de cada proyecto (ej. `01_netflix_content_transformation.sql`).
+* **Share & Act:** Reportes de *Hallazgos Principales* y enlaces a dashboards en Looker Studio.
+
+  Esta metodología se alinea con los estándares oficiales del Google Data Analytics Professional Certificate, garantizando que cada análisis sea estructurado, reproducible y orientado a decisiones de negocio.
 ---
 
 ## 📂 Índice de Proyectos y Prácticas
