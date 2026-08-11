@@ -38,7 +38,7 @@ Cada fase de la metodología de Google está documentada y respaldada en los arc
 * **Analyze:** Consultas SQL avanzadas guardadas en la carpeta `sql/` de cada proyecto (ej. `01_netflix_content_transformation.sql`).
 * **Share & Act:** Reportes de *Hallazgos Principales* y enlaces a dashboards en Looker Studio.
 
-  Esta metodología se alinea con los estándares oficiales del Google Data Analytics Professional Certificate, garantizando que cada análisis sea estructurado, reproducible y orientado a decisiones de negocio.
+  > <small>_*Esta metodología se alinea con los estándares oficiales del Google Data Analytics Professional Certificate, garantizando que cada análisis sea estructurado, reproducible y orientado a decisiones de negocio.*_</small>
 ---
 
 ## 📂 Índice de Proyectos y Prácticas
