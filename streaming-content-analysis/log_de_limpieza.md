@@ -66,9 +66,10 @@ ORDER BY
   type,
   total_titulos DESC;
   ```
-  📊 Hallazgos Principales
-Predominio de Películas Estándar: El 78.6% de las películas catalogadas duran entre 40 y 120 minutos, con un promedio general de 92.6 minutos.
+ # 📊 Hallazgos Principales
+ 
+   Predominio de Películas Estándar: El 78.6% de las películas catalogadas duran entre 40 y 120 minutos, con un promedio general de 92.6 minutos.
 
-Retención en Series: El 67% de las series de TV cuentan únicamente con 1 Temporada, mientras que las series multitemporada promedian 3.3 temporadas.
-
-Calidad de Datos: Se identificaron 3 registros atípicos (0.03%) con datos faltantes de duración, clasificados correctamente dentro del pipeline.
+   Retención en Series: El 67% de las series de TV cuentan únicamente con 1 Temporada, mientras que las series multitemporada promedian 3.3 temporadas.
+   
+   Calidad de Datos: Se identificaron 3 registros atípicos (0.03%) con datos faltantes de duración, clasificados correctamente dentro del pipeline.
