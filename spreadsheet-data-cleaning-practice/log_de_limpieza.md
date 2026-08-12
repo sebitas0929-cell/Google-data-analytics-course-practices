@@ -1,37 +1,36 @@
-# 🧹 Bitácora de Limpieza de Datos: Funciones en Hojas de Cálculo
+# 🧹 Bitácora de Limpieza y Exploración de Datos: Hojas de Cálculo
 
-## 📌 Contexto del Ejercicio
-Este laboratorio aborda las técnicas esenciales de saneamiento de datos en Google Sheets utilizando herramientas nativas de menú. Se trabajaron dos conjuntos de datos: **Afiliaciones a la Asociación Internacional de Logística** y **Cosmetics Inc.**.
+## 📌 Contexto del Laboratorio
+Este laboratorio documenta el ciclo completo de saneamiento, auditoría de calidad y exploración multinivel de datos en Google Sheets sobre dos conjuntos de datos comerciales: **Afiliaciones de Logística** y **Cosmetics Inc.**.
 
 ---
 
-## 🛠️ Procedimiento de Limpieza Paso a Paso
+## 🛠️ Fase 1: Saneamiento Estructural y Normalización
+1. **Auditoría de Vacíos:** Reglas de formato condicional para detección visual de celdas nulas en campos no opcionales.
+2. **Desduplicación:** Preservación de pestañas de respaldo y eliminación de registros idénticos con la herramienta nativa de desduplicación.
+3. **Estandarización Temporal:** Ajuste de configuración regional a Estados Unidos y conversión de números de serie enteros (ej. `44492`) a tipo de dato `DATE`.
+4. **Dividir Texto en Columnas:** Separación de atributos compuestos y corrección de celdas numéricas formateadas como cadena de texto para resolver errores de cálculo (`#¡VALOR!`).
 
-### 1. Auditoría Visual con Formato Condicional
-- **Objetivo**: Identificar rápidamente celdas vacías sin alterar la estructura original.
-- **Rango Aplicado**: Columnas `A:E` y `G, I, J, K, L` (excluyendo columnas con valores opcionales `F` y `H`).
-- **Configuración**: Regla *La celda está vacía* con un estilo de relleno amarillo/rojo claro para alto contraste.
+---
 
-### 2. Preservación de Respaldo y Eliminación de Duplicados
-- **Objetivo**: Garantizar la unicidad de los registros de miembros de la asociación.
-- **Acción**: Duplicación de la pestaña (`Copia de miembros`) como buena práctica de seguridad y aplicación de `Datos > Limpieza de datos > Eliminar duplicados`.
+## 🛠️ Fase 2: Control de Calidad y Fórmulas Avanzadas
+1. **Auditoría de Cuotas (`COUNTIF` / `CONTAR.SI`):** Identificación y corrección de valores atípicos negativos (`-$200` $\rightarrow$ `$200`) y fuera de rango (`$1,000` $\rightarrow$ `$100`).
+2. **Validación de Identificadores (`LEN` / `LARGO`):** Creación de columna auxiliar `LEN` y regla de formato condicional para valores $\neq 6$, detectando el error de digitación en la celda `B36` (7 caracteres).
+3. **Ingeniería de Características y Limpieza de Cadenas:**
+   - Extracción de subcadenas con `LEFT`, `RIGHT` y `MID`.
+   - Reconstrucción de claves limpias mediante `CONCATENATE`.
+   - Eliminación de espacios sobrantes mediante `TRIM` / `ESPACIOS`.
 
-### 3. Estandarización de Fechas y Números de Serie
-- **Objetivo**: Corregir inconsistencias de tipo texto en campos temporales e interpretar números de serie internos de fecha (ej. valor entero `44492`).
-- **Acción**: Ajuste de configuración regional a *Estados Unidos* y formateo explícito mediante `Formato > Número > Fecha`.
+---
 
-### 4. Separación de Cadenas Compuestas (`Dividir texto en columnas`)
-- **Objetivo**: Descomponer cadenas de texto compuestas en variables independientes.
-- **Columna**: `L` (`Certificación`).
-- **Acción**: `Datos > Dividir texto en columnas` con detección automática de delimitadores.
-
-### 5. Corrección de Números Almacenados como Texto
-- **Objetivo**: Resolver errores de cálculo (ej. en celda `F12`) causados por comillas o texto en campos numéricos.
-- **Dataset**: *Cosmetics Inc.* (Columna `E` - `Pedidos`).
-- **Acción**: Aplicación de `Dividir texto en columnas` sobre la columna `E` para forzar la conversión a número entero.
+## 🛠️ Fase 3: Exploración Multidimensional y Corrección Visual
+1. **Agregación con Tablas Dinámicas:** Resumen sintético en nueva pestaña ordenado descendentemente por la columna `Total`, identificando como productos líderes a **`15143Exfo`** ($15,671.28) y **`32729Masc`** ($12,762.36).
+2. **Cruce de Tablas (`VLOOKUP` / `BUSCARV`):** Mapeo de códigos clave contra nombres descriptivos almacenados en la tabla secundaria (`Sheet 2`) para asociar nombres como *SoSoft Scrub* y *Darkest Lashes Mascara*.
+3. **Detección de Valores Atípicos mediante Gráficos:** Identificación de un error de punto decimal en el precio de la celda `B14` ($0.73 $\rightarrow$ $7.30) utilizando un gráfico de columnas de inspección.
 
 ---
 
 ## 📊 Resultados Obtenidos
-- Base de datos de logística libre de registros duplicados e inconsistencias temporales.
-- Eliminación de errores numéricos tipo `#¡VALOR!` al transformar cadenas formateadas como texto a valores numéricos reales.
+- Base de datos 100% desduplicada, estandarizada e integrada.
+- Eliminación de errores de tipeo y punto decimal que distorsionaban el análisis de ingresos.
+- Generación de datasets `.csv` estructurados y limpios para su posterior ingesta y modelado en Google BigQuery.
