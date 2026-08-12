@@ -12,10 +12,10 @@ Aplicar técnicas de análisis exploratorio, saneamiento de datos, modelado rela
 ---
 
 ## 🛠️ Herramientas y Tecnologías Aplicadas
-* **Hojas de Cálculo (Google Sheets / Excel):** Auditoría visual, saneamiento de datos, expresiones regulares (`REGEXEXTRACT`), tratamiento de errores (`SI.ERROR`), formato condicional de nulos, desduplicación y tablas dinámicas.
+* **Hojas de Cálculo (Google Sheets / Excel):** Auditoría visual, saneamiento de datos por menú, expresiones de texto (`LEFT`, `RIGHT`, `MID`, `CONCATENATE`), depuración de espacios (`TRIM`), tratamiento de errores, formato condicional de nulos/longitudes (`LEN`), desduplicación, tablas dinámicas y cruce de datos mediante `VLOOKUP`.
 * **Bases de Datos & SQL (Google BigQuery):** Consultas analíticas, agregaciones (`GROUP BY`, `SUM`, `AVG`), funciones de conversión (`SAFE_CAST`, `PARSE_DATE`), condicionales (`CASE WHEN`) y preparación de modelos de datos a escala.
-* **Visualización de Datos (Looker Studio):** Diseños de dashboards ejecutivos e interactivos con KPIs, gráficos de barras y mapas regionales.
-* **Estadística Aplicada:** Evaluación de dispersión salarial, desviación estándar y cálculo del margen de error (intervalos de confianza al 95%).
+* **Visualización de Datos (Looker Studio / Gráficos de Hojas de Cálculo):** Diseños de dashboards ejecutivos e interactivos con KPIs, gráficos de barras/columnas para detección de atípicos y mapas regionales.
+* **Estadística Aplicada:** Evaluación de dispersión salarial, desviación estándar, cálculo del margen de error (intervalos de confianza al 95%) y detección de valores fuera de rango (`COUNTIF`).
 
 ---
 
@@ -25,8 +25,8 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 1. **Preguntar (Ask):** Definición del problema de negocio y objetivos analíticos.
 2. **Preparar (Prepare):** Identificación de fuentes, estructura y evaluación de integridad de los datos.
 3. **Procesar (Process):** Saneamiento de datos, tratamiento de nulos y estandarización mediante Sheets/SQL.
-4. **Analizar (Analyze):** Modelado, consultas exploratorias y cálculos estadísticos en BigQuery.
-5. **Compartir (Share):** Creación de tableros interactivos y reportes de hallazgos.
+4. **Analizar (Analyze):** Modelado, consultas exploratorias, agregaciones con tablas dinámicas y cálculos estadísticos.
+5. **Compartir (Share):** Creación de tableros interactivos, visualizaciones y reportes de hallazgos.
 6. **Actuar (Act):** Formulación de conclusiones y recomendaciones estratégicas.
 
 > <small>_*Esta metodología se alinea con los estándares oficiales del Google Data Analytics Professional Certificate, garantizando que cada análisis sea estructurado, reproducible y orientado a decisiones de negocio.*_</small>
@@ -40,7 +40,7 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 | **`Analisis-ventas-ecommerce-`** | Limpieza de datos (+105k filas), consultas SQL y Dashboard en Looker. | Sheets, BigQuery, Looker Studio | [Ver Carpeta](./Analisis-ventas-ecommerce-) |
 | **`ds-salaries-analysis`** | Estandarización de roles, cálculo de margen de error (95% confianza) y consulta SQL de incertidumbre. | Google Sheets, BigQuery | [Ver Carpeta](./ds-salaries-analysis) |
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
-| **`spreadsheet-data-cleaning-practice`** | Formato condicional de nulos, desduplicación de registros, estandarización de fechas y separación de columnas compuestas. | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
+| **`spreadsheet-data-cleaning-practice`** | Saneamiento de nulos, desduplicación, estandarización de fechas, fórmulas avanzadas (`COUNTIF`, `LEN`, `TRIM`, `VLOOKUP`), agregación con Tablas Dinámicas y gráficos de inspección. | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
 
 ---
 
