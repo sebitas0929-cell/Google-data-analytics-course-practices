@@ -46,14 +46,17 @@ GROUP BY
 ORDER BY
   total_views DESC;
 ```
-##📊 Tabla Comparativa de Rendimiento
+## 📊 Tabla Comparativa de Rendimiento
 
-Dataset,Número de Filas,Datos Procesados,Tiempo de Ejecución
-Wiki10B,"10,000 Millones",~415 GB,~15.0 segundos
-Wiki100B,"100,000 Millones",4.1 TB,~27.6 segundos
+| Dataset | Número de Filas | Datos Procesados | Tiempo de Ejecución |
+| :--- | :---: | :---: | :---: |
+| **Wiki10B** | 10,000 Millones | ~415 GB | ~15.0 segundos |
+| **Wiki100B** | 100,000 Millones | 4.1 TB | ~27.6 segundos |
 
-💡 Lecciones Clave para Análisis de Datos
+---
 
-Relación Volumen - Tiempo: Aumentar el dataset por un factor de 10x solo duplicó el tiempo de ejecución (de 15s a 27.6s) gracias a la arquitectura distribuida de BigQuery.
-Optimizaciones de Costo: En BigQuery, el costo de las consultas se calcula en función de la cantidad de Terabytes escaneados. 
-Es crucial evitar cláusulas SELECT * innecesarias.Almacenamiento en Caché: Las reejecuciones de la misma consulta devuelven resultados de forma instantánea ($0.0$ segundos) a costo cero al aprovechar el caché.
+## 💡 Lecciones Clave para Análisis de Datos
+
+* **Relación Volumen - Tiempo:** Aumentar el dataset por un factor de 10x solo duplicó el tiempo de ejecución (de 15s a 27.6s) gracias a la arquitectura distribuida y paralela de BigQuery.
+* **Optimizaciones de Costo:** En BigQuery, el costo de las consultas se calcula en función de la cantidad de Terabytes escaneados. Es crucial evitar cláusulas `SELECT *` innecesarias y seleccionar únicamente las columnas requeridas.
+* **Almacenamiento en Caché:** Las reejecuciones de la misma consulta devuelven resultados de forma instantánea (0.0 segundos) a costo cero al aprovechar la memoria caché predeterminada.
