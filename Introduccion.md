@@ -1,8 +1,3 @@
-### 📝 2. Actualización Final de `Introduccion.md`
-
-Actualiza la tabla de proyectos en el archivo **`Introduccion.md`** en la raíz de tu repositorio para incluir este nuevo proyecto:
-
-```markdown
 # 📌 Introducción al Repositorio
 
 ¡Bienvenido a mi portafolio de prácticas y proyectos de análisis de datos!
