@@ -1,3 +1,8 @@
+### 📝 2. Actualización Final de `Introduccion.md`
+
+Actualiza la tabla de proyectos en el archivo **`Introduccion.md`** en la raíz de tu repositorio para incluir este nuevo proyecto:
+
+```markdown
 # 📌 Introducción al Repositorio
 
 ¡Bienvenido a mi portafolio de prácticas y proyectos de análisis de datos!
@@ -13,7 +18,7 @@ Aplicar técnicas de análisis exploratorio, saneamiento de datos, modelado rela
 
 ## 🛠️ Herramientas y Tecnologías Aplicadas
 * **Hojas de Cálculo (Google Sheets / Excel):** Auditoría visual, saneamiento de datos por menú, expresiones de texto (`LEFT`, `RIGHT`, `MID`, `CONCATENATE`), depuración de espacios (`TRIM`), tratamiento de errores, formato condicional de nulos/longitudes (`LEN`), desduplicación, tablas dinámicas, separación de subcadenas (`SPLIT`), funciones condicionales (`COUNTIF`) y cruce de datos mediante `VLOOKUP`.
-* **Bases de Datos & SQL (Google BigQuery):** Consultas analíticas, agregaciones (`GROUP BY`, `SUM`, `AVG`), funciones de conversión (`SAFE_CAST`, `PARSE_DATE`), condicionales (`CASE WHEN`) y preparación de modelos de datos a escala.
+* **Bases de Datos & SQL (Google BigQuery):** Consultas analíticas, agregaciones (`GROUP BY`, `SUM`, `AVG`), funciones de conversión (`SAFE_CAST`, `PARSE_DATE`), condicionales (`CASE WHEN`), benchmarking de consultas masivas y preparación de modelos de datos a escala.
 * **Visualización de Datos (Looker Studio / Gráficos de Hojas de Cálculo):** Diseños de dashboards ejecutivos e interactivos con KPIs, gráficos de barras/columnas para detección de atípicos y mapas regionales.
 * **Estadística Aplicada:** Evaluación de dispersión salarial, desviación estándar, cálculo del margen de error (intervalos de confianza al 95%) y detección de valores fuera de rango (`COUNTIF`).
 
@@ -41,6 +46,7 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 | **`ds-salaries-analysis`** | Estandarización de roles, cálculo de margen de error (95% confianza) y consulta SQL de incertidumbre. | Google Sheets, BigQuery | [Ver Carpeta](./ds-salaries-analysis) |
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
 | **`spreadsheet-data-cleaning-practice`** | Saneamiento de nulos, desduplicación, estandarización de fechas, fórmulas avanzadas (`COUNTIF`, `LEN`, `TRIM`, `SPLIT`, `VLOOKUP`), agregación con Tablas Dinámicas y geolocalización de coordenadas (`lat`/`long`). | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
+| **`sql-performance-and-benchmarking`** | Análisis de rendimiento y volumen de datos en BigQuery sobre 4.1 TB de datos públicos de Wikipedia (`Wiki10B` vs `Wiki100B`), jerarquía de memoria y estrategias de caché. | Google BigQuery, SQL | [Ver Carpeta](./sql-performance-and-benchmarking) |
 
 ---
 
