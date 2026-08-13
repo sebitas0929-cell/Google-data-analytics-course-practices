@@ -1,0 +1,23 @@
+# 🚗 Saneamiento y Limpieza de Datos Relacionales con SQL (Google BigQuery)
+
+## 📌 Contexto del Proyecto
+Laboratorio práctico de auditoría, limpieza e imputación de datos de ventas de automóviles (`automobile_data.csv`) almacenados en Google BigQuery en la tabla `ecommerce-analytics-shopee.cars.car_info`, preparando la base de datos para análisis de inventario y demanda.
+
+---
+
+## 🛠️ Procedimiento de Limpieza SQL Paso a Paso
+
+### 1. Auditoría Inicial y Verificación de Rangos
+- **Tipos de Combustible**: Confirmación de valores de cadena únicos (`gas`, `diesel`) mediante `SELECT DISTINCT`.
+- **Dimensiones (`length`)**: Validación de rangos mínimos (`141.1`) y máximos (`208.1`) mediante `MIN()` y `MAX()`.
+
+```sql
+-- Verificar tipos de combustible únicos
+SELECT DISTINCT fuel_type
+FROM `ecommerce-analytics-shopee.cars.car_info`;
+
+-- Inspección de rango de longitud
+SELECT 
+  MIN(length) AS min_length, 
+  MAX(length) AS max_length
+FROM `ecommerce-analytics-shopee.cars.car_info`;
