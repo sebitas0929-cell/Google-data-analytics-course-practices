@@ -13,7 +13,7 @@ Aplicar técnicas de análisis exploratorio, saneamiento de datos, modelado rela
 
 ## 🛠️ Herramientas y Tecnologías Aplicadas
 * **Hojas de Cálculo (Google Sheets / Excel):** Auditoría visual, saneamiento de datos por menú, expresiones de texto (`LEFT`, `RIGHT`, `MID`, `CONCATENATE`), depuración de espacios (`TRIM`), tratamiento de errores, formato condicional de nulos/longitudes (`LEN`), desduplicación, tablas dinámicas, separación de subcadenas (`SPLIT`), funciones condicionales (`COUNTIF`) y cruce de datos mediante `VLOOKUP`.
-* **Bases de Datos & SQL (Google BigQuery):** Consultas analíticas, agregaciones (`GROUP BY`, `SUM`, `AVG`), funciones de conversión (`SAFE_CAST`, `PARSE_DATE`), condicionales (`CASE WHEN`), benchmarking de consultas masivas (10B vs. 100B de filas), sentencias DML (`UPDATE`, `DELETE`, `TRIM`, `LENGTH`) y preparación de modelos de datos a escala.
+* **Bases de Datos & SQL (Google BigQuery):** Consultas analíticas, agregaciones (`GROUP BY`, `SUM`, `AVG`), funciones de conversión (`SAFE_CAST`, `PARSE_DATE`), condicionales (`CASE WHEN`), benchmarking de consultas masivas (10B vs. 100B de filas), sentencias DML (`UPDATE`, `DELETE`, `TRIM`, `LENGTH`), creación y materialización de tablas analíticas (`CREATE OR REPLACE TABLE`) con depuración de valores centinela (*sentinel values*).
 * **Visualización de Datos (Looker Studio / Gráficos de Hojas de Cálculo):** Diseños de dashboards ejecutivos e interactivos con KPIs, gráficos de barras/columnas para detección de atípicos y mapas regionales.
 * **Estadística Aplicada:** Evaluación de dispersión salarial, desviación estándar, cálculo del margen de error (intervalos de confianza al 95%) y detección de valores fuera de rango (`COUNTIF`).
 
@@ -41,7 +41,7 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 | **`ds-salaries-analysis`** | Estandarización de roles, cálculo de margen de error (95% confianza) y consulta SQL de incertidumbre. | Google Sheets, BigQuery | [Ver Carpeta](./ds-salaries-analysis) |
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
 | **`spreadsheet-data-cleaning-practice`** | Saneamiento de nulos, desduplicación, estandarización de fechas, fórmulas avanzadas (`COUNTIF`, `LEN`, `TRIM`, `SPLIT`, `VLOOKUP`), agregación con Tablas Dinámicas y geolocalización. | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
-| **`SQL-Laboratories`** | Laboratorios de SQL en BigQuery: Benchmarking de consultas masivas (Wikipedia 4.1 TB) y saneamiento relacional DML (`UPDATE`, `DELETE`, `TRIM`, `LENGTH`) sobre la tabla `ecommerce-analytics-shopee.cars.car_info`. | Google BigQuery, SQL | [Ver Carpeta](./SQL-Laboratories) |
+| **`SQL-Laboratories`** | Laboratorios de SQL en BigQuery: Benchmarking masivo (Wikipedia 4.1 TB), saneamiento relacional DML (`cars.car_info`) y extracción/materialización analítica con limpieza de valores centinela (`NOAA NYC Weather 2020`). | Google BigQuery, SQL | [Ver Carpeta](./SQL-Laboratories) |
 
 ---
 
