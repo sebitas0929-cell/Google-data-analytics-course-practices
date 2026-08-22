@@ -41,7 +41,7 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 | **`ds-salaries-analysis`** | Estandarización de roles, cálculo de margen de error (95% confianza) y consulta SQL de incertidumbre. | Google Sheets, BigQuery | [Ver Carpeta](./ds-salaries-analysis) |
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
 | **`spreadsheet-data-cleaning-practice`** | Saneamiento de nulos, desduplicación, fórmulas de texto/limpieza (`ESPACIOS`, `VALOR`, `DIVIDIR`, `LARGO`), consolidación relacional con `BUSCARV` (cálculo de nómina) y reportes con Tablas Dinámicas. | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
-| **`SQL-Laboratories`** | Laboratorios de SQL en BigQuery: Benchmarking masivo (Wikipedia 4.1 TB), saneamiento relacional DML (`cars.car_info`), materialización analítica (`NOAA NYC Weather 2020`) y cruces relacionales (`World Bank Education JOINs`). | Google BigQuery, SQL | [Ver Carpeta](./SQL-Laboratories) |
+| **`SQL-Laboratories`** | Laboratorios de SQL en BigQuery: Benchmarking masivo (Wikipedia 4.1 TB), saneamiento relacional DML (`cars.car_info`), materialización analítica (`NOAA NYC Weather 2020`), cruces relacionales `INNER JOIN` (`World Bank Education`) y preservación dimensional `LEFT JOIN` (`NCAA Basketball`). | Google BigQuery, SQL | [Ver Carpeta](./SQL-Laboratories) |
 
 ---
 
