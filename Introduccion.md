@@ -42,6 +42,7 @@ Cada proyecto desarrollado en este repositorio sigue las 6 fases del ciclo de vi
 | **`streaming-content-analysis`** | Limpieza de expresiones regulares, extracción de duraciones numéricas y categorización de catálogo mediante `CASE WHEN`. | Google Sheets, BigQuery | [Ver Carpeta](./streaming-content-analysis) |
 | **`spreadsheet-data-cleaning-practice`** | Saneamiento de nulos, desduplicación, fórmulas de texto/limpieza (`ESPACIOS`, `VALOR`, `DIVIDIR`, `LARGO`), consolidación relacional con `BUSCARV` (cálculo de nómina) y reportes con Tablas Dinámicas. | Google Sheets | [Ver Carpeta](./spreadsheet-data-cleaning-practice) |
 | **`SQL-Laboratories`** | Laboratorios de SQL en BigQuery: Benchmarking masivo (Wikipedia 4.1 TB), saneamiento DML (`cars.car_info`), materialización analítica (`NOAA NYC Weather`), cruces relacionales (`World Bank JOINs`, `NCAA Basketball`) y subconsultas analíticas con filtrado de grupos (`NYC Taxi Subqueries & HAVING`). | Google BigQuery, SQL | [Ver Carpeta](./SQL-Laboratories) |
+| **`superstore-profitability-analysis`** | Auditoría financiera, matrices de rentabilidad con Tablas Dinámicas, detección de fuga de márgenes por descuentos excesivos y tablero interactivo con Slicers y gráficos de divergencia. | Google Sheets, Business Analytics | [Ver Carpeta](./superstore-profitability-analysis) |
 
 ---
 
