@@ -1,0 +1,194 @@
+country_name,country_code,region,income_group,secondary_edu_population
+India,IND,South Asia,Lower middle income,175129728
+China,CHN,East Asia & Pacific,Upper middle income,91333960
+Indonesia,IDN,East Asia & Pacific,Lower middle income,27674442
+Pakistan,PAK,South Asia,Lower middle income,27125616
+United States,USA,North America,High income: OECD,24617058
+Nigeria,NGA,Sub-Saharan Africa,Lower middle income,23976304
+Brazil,BRA,Latin America & Caribbean,Upper middle income,23584100
+Bangladesh,BGD,South Asia,Low income,22930938
+Mexico,MEX,Latin America & Caribbean,Upper middle income,14345589
+Ethiopia,ETH,Sub-Saharan Africa,Low income,14296881
+Turkey,TUR,Europe & Central Asia,Upper middle income,10702811
+"Congo, Dem. Rep.",COD,Sub-Saharan Africa,Low income,10453419
+"Egypt, Arab Rep.",EGY,Middle East & North Africa,Lower middle income,9658007
+Vietnam,VNM,East Asia & Pacific,Lower middle income,9377680
+Russian Federation,RUS,Europe & Central Asia,High income: nonOECD,8981938
+Philippines,PHL,East Asia & Pacific,Lower middle income,8173849
+Japan,JPN,East Asia & Pacific,High income: OECD,7039739
+Germany,DEU,Europe & Central Asia,High income: OECD,6928283
+Tanzania,TZA,Sub-Saharan Africa,Low income,6787792
+"Iran, Islamic Rep.",IRN,Middle East & North Africa,Upper middle income,6406476
+Myanmar,MMR,East Asia & Pacific,Low income,6288874
+Kenya,KEN,Sub-Saharan Africa,Low income,6213169
+Uganda,UGA,Sub-Saharan Africa,Low income,5525814
+France,FRA,Europe & Central Asia,High income: OECD,5431967
+Thailand,THA,East Asia & Pacific,Upper middle income,5238050
+South Africa,ZAF,Sub-Saharan Africa,Upper middle income,5233782
+United Kingdom,GBR,Europe & Central Asia,High income: OECD,5035677
+Colombia,COL,Latin America & Caribbean,Upper middle income,4887218
+Afghanistan,AFG,South Asia,Low income,4850112
+Nepal,NPL,South Asia,Low income,4728788
+Iraq,IRQ,Middle East & North Africa,Upper middle income,4710706
+Sudan,SDN,Sub-Saharan Africa,Lower middle income,4584447
+Italy,ITA,Europe & Central Asia,High income: OECD,4476100
+Argentina,ARG,Latin America & Caribbean,Upper middle income,4204388
+Uzbekistan,UZB,Europe & Central Asia,Lower middle income,4145102
+Algeria,DZA,Middle East & North Africa,Upper middle income,4056674
+Madagascar,MDG,Sub-Saharan Africa,Low income,3972980
+Ghana,GHA,Sub-Saharan Africa,Lower middle income,3972319
+Malaysia,MYS,East Asia & Pacific,Upper middle income,3855967
+"Yemen, Rep.",YEM,Middle East & North Africa,Lower middle income,3697648
+Cameroon,CMR,Sub-Saharan Africa,Lower middle income,3630074
+Cote d'Ivoire,CIV,Sub-Saharan Africa,Lower middle income,3618487
+Angola,AGO,Sub-Saharan Africa,Upper middle income,3562398
+Morocco,MAR,Middle East & North Africa,Lower middle income,3514128
+"Korea, Rep.",KOR,East Asia & Pacific,High income: OECD,3435168
+Mozambique,MOZ,Sub-Saharan Africa,Low income,3308822
+Saudi Arabia,SAU,Middle East & North Africa,High income: nonOECD,3155775
+Niger,NER,Sub-Saharan Africa,Low income,2869548
+Burkina Faso,BFA,Sub-Saharan Africa,Low income,2867971
+"Venezuela, RB",VEN,Latin America & Caribbean,Upper middle income,2813460
+Peru,PER,Latin America & Caribbean,Upper middle income,2800715
+Syrian Arab Republic,SYR,Middle East & North Africa,Lower middle income,2692408
+Sri Lanka,LKA,South Asia,Lower middle income,2658756
+Spain,ESP,Europe & Central Asia,High income: OECD,2552280
+Poland,POL,Europe & Central Asia,High income: OECD,2443268
+Malawi,MWI,Sub-Saharan Africa,Low income,2391673
+Canada,CAN,North America,High income: OECD,2380616
+"Korea, Dem. People’s Rep.",PRK,East Asia & Pacific,Low income,2300272
+Senegal,SEN,Sub-Saharan Africa,Lower middle income,2289124
+Mali,MLI,Sub-Saharan Africa,Low income,2288893
+Chad,TCD,Sub-Saharan Africa,Low income,2274710
+Zimbabwe,ZWE,Sub-Saharan Africa,Low income,2047619
+Guinea,GIN,Sub-Saharan Africa,Low income,1893350
+Guatemala,GTM,Latin America & Caribbean,Lower middle income,1859993
+Cambodia,KHM,East Asia & Pacific,Low income,1847477
+Zambia,ZMB,Sub-Saharan Africa,Lower middle income,1821221
+Ecuador,ECU,Latin America & Caribbean,Upper middle income,1803359
+South Sudan,SSD,Sub-Saharan Africa,Lower middle income,1724549
+Australia,AUS,East Asia & Pacific,High income: OECD,1714038
+Benin,BEN,Sub-Saharan Africa,Low income,1696451
+Romania,ROU,Europe & Central Asia,Upper middle income,1694225
+Haiti,HTI,Latin America & Caribbean,Low income,1589516
+Burundi,BDI,Sub-Saharan Africa,Low income,1563658
+Rwanda,RWA,Sub-Saharan Africa,Low income,1547792
+Kazakhstan,KAZ,Europe & Central Asia,Upper middle income,1539092
+Chile,CHL,Latin America & Caribbean,High income: OECD,1536395
+Somalia,SOM,Sub-Saharan Africa,Low income,1528537
+Bolivia,BOL,Latin America & Caribbean,Lower middle income,1334851
+Tajikistan,TJK,Europe & Central Asia,Low income,1194682
+Dominican Republic,DOM,Latin America & Caribbean,Upper middle income,1194403
+Netherlands,NLD,Europe & Central Asia,High income: OECD,1191003
+Tunisia,TUN,Middle East & North Africa,Upper middle income,1142749
+Togo,TGO,Sub-Saharan Africa,Low income,1100129
+Sierra Leone,SLE,Sub-Saharan Africa,Low income,1038884
+Lao PDR,LAO,East Asia & Pacific,Lower middle income,1037698
+Papua New Guinea,PNG,East Asia & Pacific,Lower middle income,1005593
+Jordan,JOR,Middle East & North Africa,Upper middle income,928949
+Azerbaijan,AZE,Europe & Central Asia,Upper middle income,907062
+Honduras,HND,Latin America & Caribbean,Lower middle income,901055
+West Bank and Gaza,PSE,Middle East & North Africa,Lower middle income,869213
+Cuba,CUB,Latin America & Caribbean,Upper middle income,821769
+Paraguay,PRY,Latin America & Caribbean,Lower middle income,806477
+Eritrea,ERI,Sub-Saharan Africa,Low income,804606
+Hungary,HUN,Europe & Central Asia,Upper middle income,785738
+Central African Republic,CAF,Sub-Saharan Africa,Low income,766439
+Israel,ISR,Middle East & North Africa,High income: OECD,765770
+Turkmenistan,TKM,Europe & Central Asia,Upper middle income,761771
+El Salvador,SLV,Latin America & Caribbean,Lower middle income,755359
+Belgium,BEL,Europe & Central Asia,High income: OECD,730126
+Czech Republic,CZE,Europe & Central Asia,High income: OECD,729845
+Kyrgyz Republic,KGZ,Europe & Central Asia,Lower middle income,698972
+Austria,AUT,Europe & Central Asia,High income: OECD,690920
+"Congo, Rep.",COG,Sub-Saharan Africa,Lower middle income,678309
+Portugal,PRT,Europe & Central Asia,High income: OECD,653534
+Libya,LBY,Middle East & North Africa,Upper middle income,639776
+Lebanon,LBN,Middle East & North Africa,Upper middle income,624822
+Greece,GRC,Europe & Central Asia,High income: OECD,616613
+Mauritania,MRT,Sub-Saharan Africa,Lower middle income,612979
+Liberia,LBR,Sub-Saharan Africa,Low income,608132
+Switzerland,CHE,Europe & Central Asia,High income: OECD,607100
+Nicaragua,NIC,Latin America & Caribbean,Lower middle income,602809
+Belarus,BLR,Europe & Central Asia,Upper middle income,601341
+Sweden,SWE,Europe & Central Asia,High income: OECD,600964
+Serbia,SRB,Europe & Central Asia,Upper middle income,572515
+United Arab Emirates,ARE,Middle East & North Africa,High income: nonOECD,525697
+Bulgaria,BGR,Europe & Central Asia,Upper middle income,506379
+Slovak Republic,SVK,Europe & Central Asia,High income: OECD,491023
+Denmark,DNK,Europe & Central Asia,High income: OECD,422904
+New Zealand,NZL,East Asia & Pacific,High income: OECD,418009
+Panama,PAN,Latin America & Caribbean,Upper middle income,412623
+"Hong Kong SAR, China",HKG,East Asia & Pacific,High income: nonOECD,390663
+Norway,NOR,Europe & Central Asia,High income: OECD,386828
+Costa Rica,CRI,Latin America & Caribbean,Upper middle income,373928
+Croatia,HRV,Europe & Central Asia,High income: nonOECD,366746
+Finland,FIN,Europe & Central Asia,High income: OECD,361355
+Albania,ALB,Europe & Central Asia,Upper middle income,329011
+Puerto Rico,PRI,Latin America & Caribbean,High income: nonOECD,321083
+Mongolia,MNG,East Asia & Pacific,Lower middle income,308281
+Uruguay,URY,Latin America & Caribbean,High income: nonOECD,304295
+Kuwait,KWT,Middle East & North Africa,High income: nonOECD,301869
+Ireland,IRL,Europe & Central Asia,High income: OECD,278212
+Oman,OMN,Middle East & North Africa,High income: nonOECD,275248
+Armenia,ARM,Europe & Central Asia,Lower middle income,271508
+Moldova,MDA,Europe & Central Asia,Lower middle income,270892
+Georgia,GEO,Europe & Central Asia,Lower middle income,268007
+Namibia,NAM,Sub-Saharan Africa,Upper middle income,267272
+Jamaica,JAM,Latin America & Caribbean,Upper middle income,262096
+"Gambia, The",GMB,Sub-Saharan Africa,Low income,259023
+Gabon,GAB,Sub-Saharan Africa,Upper middle income,254032
+Lesotho,LSO,Sub-Saharan Africa,Lower middle income,248147
+Lithuania,LTU,Europe & Central Asia,High income: nonOECD,243158
+Guinea-Bissau,GNB,Sub-Saharan Africa,Low income,240303
+Botswana,BWA,Sub-Saharan Africa,Upper middle income,219472
+"Macedonia, FYR",MKD,Europe & Central Asia,Upper middle income,213089
+Timor-Leste,TLS,East Asia & Pacific,Lower middle income,168455
+Swaziland,SWZ,Sub-Saharan Africa,Lower middle income,146326
+Mauritius,MUS,Sub-Saharan Africa,Upper middle income,134810
+Slovenia,SVN,Europe & Central Asia,High income: OECD,129441
+Djibouti,DJI,Middle East & North Africa,Lower middle income,126374
+Comoros,COM,Sub-Saharan Africa,Low income,118640
+Fiji,FJI,East Asia & Pacific,Upper middle income,108528
+Qatar,QAT,Middle East & North Africa,High income: nonOECD,104820
+Equatorial Guinea,GNQ,Sub-Saharan Africa,High income: nonOECD,101550
+Latvia,LVA,Europe & Central Asia,High income: nonOECD,98551
+Guyana,GUY,Latin America & Caribbean,Lower middle income,96971
+Solomon Islands,SLB,East Asia & Pacific,Lower middle income,92516
+Bahrain,BHR,Middle East & North Africa,High income: nonOECD,90525
+Bhutan,BTN,South Asia,Lower middle income,87051
+Trinidad and Tobago,TTO,Latin America & Caribbean,High income: nonOECD,86807
+Estonia,EST,Europe & Central Asia,High income: OECD,67643
+Suriname,SUR,Latin America & Caribbean,Upper middle income,67438
+Montenegro,MNE,Europe & Central Asia,Upper middle income,66972
+Cabo Verde,CPV,Sub-Saharan Africa,Lower middle income,63141
+Cyprus,CYP,Europe & Central Asia,High income: nonOECD,57288
+Brunei Darussalam,BRN,East Asia & Pacific,High income: nonOECD,49177
+Belize,BLZ,Latin America & Caribbean,Upper middle income,46856
+Luxembourg,LUX,Europe & Central Asia,High income: OECD,46127
+Vanuatu,VUT,East Asia & Pacific,Lower middle income,37522
+"Bahamas, The",BHS,Latin America & Caribbean,High income: nonOECD,32716
+"Macao SAR, China",MAC,East Asia & Pacific,High income: nonOECD,31186
+Malta,MLT,Middle East & North Africa,High income: nonOECD,31048
+Iceland,ISL,Europe & Central Asia,High income: OECD,31012
+Maldives,MDV,South Asia,Upper middle income,30695
+Samoa,WSM,East Asia & Pacific,Lower middle income,30597
+Sao Tome and Principe,STP,Sub-Saharan Africa,Lower middle income,26046
+Barbados,BRB,Latin America & Caribbean,High income: nonOECD,18935
+Tonga,TON,East Asia & Pacific,Upper middle income,16904
+Kiribati,KIR,East Asia & Pacific,Lower middle income,15887
+"Micronesia, Fed. Sts.",FSM,East Asia & Pacific,Lower middle income,15579
+St. Lucia,LCA,Latin America & Caribbean,Upper middle income,15521
+Curacao,CUW,Latin America & Caribbean,High income: nonOECD,12137
+St. Vincent and the Grenadines,VCT,Latin America & Caribbean,Upper middle income,9664
+Grenada,GRD,Latin America & Caribbean,Upper middle income,9386
+Seychelles,SYC,Sub-Saharan Africa,Upper middle income,9061
+Antigua and Barbuda,ATG,Latin America & Caribbean,High income: nonOECD,7836
+Aruba,ABW,Latin America & Caribbean,High income: nonOECD,7408
+Marshall Islands,MHL,East Asia & Pacific,Upper middle income,7119
+Bermuda,BMU,North America,High income: nonOECD,5647
+Dominica,DMA,Latin America & Caribbean,Upper middle income,5534
+St. Kitts and Nevis,KNA,Latin America & Caribbean,High income: nonOECD,4777
+Liechtenstein,LIE,Europe & Central Asia,High income: nonOECD,2884
+Tuvalu,TUV,East Asia & Pacific,Upper middle income,1496
+Palau,PLW,East Asia & Pacific,Upper middle income,1403
