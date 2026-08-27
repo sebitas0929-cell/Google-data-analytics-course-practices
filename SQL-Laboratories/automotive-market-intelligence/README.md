@@ -60,6 +60,10 @@ Comparativa Agregada: Gráfico de doble métrica promedio (`AVG(city_mpg)` y `AV
 
 Interactividad: Acción de filtrado interactivo que permite segmentar el mercado automotriz con un solo clic.
 
-> 🔗 **Explorar Dashboard Interactivo:** [Ver en Tableau Public](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
+## 📈 4. Compartir (Dashboard Ejecutivo en Tableau)
+
+[![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
+
+> 🔗 **Explorar Dashboard Interactivo:** [Ver Dashboard en Tableau Public](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
 >
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09bdc6f6-20aa-46b3-89f6-8f1a2376d246" />
