@@ -87,5 +87,6 @@ Se construyó un dashboard interactivo en Tableau Public que consolida el análi
 
 > 🔗 **Explorar Dashboard Interactivo:** [Ver en Tableau Public](https://public.tableau.com/views/StreamingContentAnalysisDashboard/Dashboard1)
 
-<img width="4920" height="1920" alt="image" src="https://github.com/user-attachments/assets/14bd5e04-42ac-415e-a6fc-d0477321f90f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8c38003-5c82-4cc5-b26a-dd730156894c" />
+
 
