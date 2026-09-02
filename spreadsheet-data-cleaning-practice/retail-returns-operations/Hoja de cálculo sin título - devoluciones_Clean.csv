@@ -1,0 +1,16 @@
+ID_Orden,Fecha_Orden,Categoria,Producto,Precio_Unitario,Cantidad,Costo_Envio,Region_Limpia,Devuelto_Estandar,Motivo_Limpio,Monto_Venta_Bruta,Es_Devolucion_Num,Perdida_Financiera
+ORD-501,2024-02-01,Tecnologia,Audifonos Pro,150,2,10,Norte,SI,Defectuoso,300,1,310
+ORD-502,2024-02-01,Hogar,Silla Ejecutiva,120,1,15,Sur,NO,Sin Devolucion,120,0,0
+ORD-503,2024-02-02,Tecnologia,Teclado Mecanico,80,3,8,Central,SI,Talla/Modelo Incorrecto,240,1,248
+ORD-504,2024-02-03,Moda,Chaqueta Impermeable,95,1,5,Norte,SI,Talla/Modelo Incorrecto,95,1,100
+ORD-505,2024-02-03,Tecnologia,Monitor 27in,320,1,25,Sur,NO,Sin Devolucion,320,0,0
+ORD-506,2024-02-04,Hogar,Lampara Escritorio,35,4,6,Central,SI,Defectuoso,140,1,146
+ORD-507,2024-02-05,Moda,Zapatillas Running,110,2,8,Norte,NO,Sin Devolucion,220,0,0
+ORD-508,2024-02-06,Moda,Vestido Casual,65,1,5,Sur,SI,Llego Tarde,65,1,70
+ORD-509,2024-02-07,Tecnologia,Audifonos Pro,150,1,10,Central,NO,Sin Devolucion,150,0,0
+ORD-510,2024-02-08,Hogar,Silla Ejecutiva,120,2,15,Norte,SI,Defectuoso,240,1,255
+ORD-511,2024-02-09,Tecnologia,Teclado Mecanico,80,1,8,Sur,NO,Sin Devolucion,80,0,0
+ORD-512,2024-02-10,Moda,Chaqueta Impermeable,95,2,5,Central,SI,Talla/Modelo Incorrecto,190,1,195
+ORD-513,2024-02-11,Tecnologia,Monitor 27in,320,1,25,Norte,SI,Llego Tarde,320,1,345
+ORD-514,2024-02-12,Hogar,Lampara Escritorio,35,2,6,Sur,NO,Sin Devolucion,70,0,0
+ORD-515,2024-02-13,Moda,Zapatillas Running,110,1,8,Central,SI,Talla/Modelo Incorrecto,110,1,118
