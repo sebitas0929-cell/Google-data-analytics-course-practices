@@ -64,6 +64,16 @@ Interactividad: Acción de filtrado interactivo que permite segmentar el mercado
 
 [![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
 
+## 📖 5. Storytelling Ejecutivo (Historia de Datos en Tableau)
+
+Presentación interactiva estructurada bajo los principios de diseño visual y las fases **Share $\rightarrow$ Act** de Google:
+
+* **Punto 1:** Diagnóstico de capital inmovilizado en unidades de alto costo (`rwd`).
+* **Punto 2:** Foco visual preatentivo sobre la eficiencia y economía de la tracción delantera (`fwd`).
+* **Punto 3:** Plan de acción operativo con cuotas de compra y límites presupuestarios.
+
+> 🔗 **Explorar Historia Ejecutiva:** [Ver Presentación en Tableau Public](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Historia1)
+
 > 🔗 **Explorar Dashboard Interactivo:** [Ver Dashboard en Tableau Public](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
 >
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09bdc6f6-20aa-46b3-89f6-8f1a2376d246" />
