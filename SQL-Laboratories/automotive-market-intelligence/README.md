@@ -62,7 +62,7 @@ Interactividad: Acción de filtrado interactivo que permite segmentar el mercado
 
 [![Tableau Public](https://img.shields.io/badge/Tableau%20Public-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/AutomotiveMarketIntelligenceDashboard_17878684237480/Dashboard1)
 
-## 📖 5. Storytelling Ejecutivo (Historia de Datos en Tableau)
+### 📖 5. Storytelling Ejecutivo (Historia de Datos en Tableau)
 
 Presentación interactiva estructurada bajo los principios de diseño visual y las fases **Share $\rightarrow$ Act** de Google:
 
